@@ -12,15 +12,23 @@ body {
 footer {
   padding: 30px ;
   clear: both;
-  font-size: px;
+  font-size: 20px;
   color: black;
   color: black;
   text-align: center;
   background: whitesmoke;
   height: 75px;
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
 }
 
-
+.sm {
+  background-color: whitesmoke;
+  width: 10%;
+  border-block-start-style: initial;
+  text-align: center;
+}
 
 
 nav {
@@ -34,13 +42,13 @@ nav {
   margin: 0 0 0px;
   overflow: visible;
   color: #fff;
-  background: beige;
+  background: whitesmoke;
   border-bottom: 2px solid #ccc;
 } */
 
 #main-container {
   padding-top: 75px;
-  word-wrap: initial;  
+  
 }
 
 .main-section {
@@ -53,3 +61,44 @@ nav {
   border: 1px solid #ddd;
 }
 
+.sm {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.linkedin {
+  background: rgb(10, 77, 221);
+  color: white;
+}
+
+.github {
+  background: #000;
+}
