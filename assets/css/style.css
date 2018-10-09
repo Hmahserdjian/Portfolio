@@ -21,6 +21,7 @@ footer {
   position: fixed;
   bottom: 0%;
   width: 100%;
+  position: fixed;
 }
 
 .sm {
@@ -30,20 +31,17 @@ footer {
   text-align: center;
 }
 
-
-
 nav  {
   width: 100%;
   display: block;
   text-align: center;
   padding: 16px;
- 
   color: whitesmoke;
   font-size: 20px;
   position: fixed;
 }
 
-/* #masthead {
+#masthead {
   position: fixed;
   z-index: 99;
   width: 100%;
@@ -52,7 +50,7 @@ nav  {
   color: #fff;
   background: whitesmoke;
   border-bottom: 2px solid #ccc;
-} */
+}
 
 #main-container {
   padding-top: 75px;
@@ -111,3 +109,40 @@ nav  {
   background: #000;
 }
 
+#contact-form ul {
+  margin-bottom: 20px;
+}
+
+#contact-form li {
+  margin-bottom: 10px;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+textarea {
+  height: 200px;
+}
+
+input[type=submit] {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #fff;
+  cursor: progress;
+  background: #4aaaa5;
+  border: 0 none;
+}
