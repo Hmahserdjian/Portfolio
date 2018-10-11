@@ -24,6 +24,8 @@ footer {
   position: fixed;
 }
 
+
+
 .sm {
   background-color: whitesmoke;
   width: 10%;
@@ -39,6 +41,26 @@ nav  {
   color: whitesmoke;
   font-size: 20px;
   position: fixed;
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+  
+}
+
+nav a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.nav a:hover {
+  background-color: darkgray;
 }
 
 #masthead {
@@ -93,7 +115,7 @@ nav  {
 }
 
 .icon-bar a:hover {
-  background-color: #000;
+  background-color: darkgrey;
 }
 .facebook {
   background: #3B5998;
@@ -143,6 +165,6 @@ input[type=submit] {
   font-size: 18px;
   color: #fff;
   cursor: progress;
-  background: #4aaaa5;
+  background: darkblue;
   border: 0 none;
 }
